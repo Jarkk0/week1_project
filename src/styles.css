@@ -1,3 +1,10 @@
 body {
-  font-family: sans-serif;
+  font-family: "EB Garamond", serif;
+}
+#menu-table {
+  text-align: left;
+  background-color: gainsboro;
+}
+.header {
+  font-style: italic;
 }

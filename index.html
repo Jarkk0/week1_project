@@ -7,54 +7,46 @@
 
   <body>
     <div id="app"></div>
-    <h1>Hello World!</h1>
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <th>Meal 1</th>
-        <th>14,89</th>
-      </tr>
-      <tr>
-        <th>Meal 2</th>
-        <th>6,99</th>
-      </tr>
-      <tr>
-        <th>Meal 3</th>
-        <th>16,99</th>
-      </tr>
-      <tr>
-        <th>Meal 4</th>
-        <th>8,49</th>
-      </tr>
-      <tr>
-        <th>Meal 5</th>
-        <th>9,99</th>
-      </tr>
-    </table>
-    <input type="text" name="item" id="item" />
-
-    <div id="itembutton"><button onclick="appendList()">Add</button></div>
-    <div id="itembutton">
-      <button onclick="deleteList()">Delete all</button>
+    <div>
+      <h2 id="menu-table" class="header">Menu</h2>
+      <table id="menu-table">
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <th>Meal 1</th>
+          <th>14,89</th>
+        </tr>
+        <tr>
+          <th>Meal 2</th>
+          <th>6,99</th>
+        </tr>
+        <tr>
+          <th>Meal 3</th>
+          <th>16,99</th>
+        </tr>
+        <tr>
+          <th>Meal 4</th>
+          <th>8,49</th>
+        </tr>
+        <tr>
+          <th>Meal 5</th>
+          <th>9,99</th>
+        </tr>
+      </table>
     </div>
+    <div>
+      <h2 class="header">Reviews</h2>
+      <input type="text" name="item" id="item" />
 
-    <ul id="listitems"></ul>
-    <script>
-      function appendList() {
-        var ul = document.getElementById("listitems");
-        var li = document.createElement("li");
-        var item = document.getElementById("item");
-        li.appendChild(document.createTextNode(item.value));
-        ul.appendChild(li);
-      }
+      <div id="itembutton"><button onclick="appendList()">Add</button></div>
+      <div id="itembutton">
+        <button onclick="deleteList()">Delete all</button>
+      </div>
 
-      function deleteList() {
-        var ul = document.getElementById("listitems");
-        while (ul.firstChild) ul.removeChild(ul.firstChild);
-      }
-    </script>
+      <ul id="listitems"></ul>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
