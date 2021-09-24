@@ -11,7 +11,7 @@ body {
   font-style: italic;
 }
 tr {
-  background-color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0);
   padding-top: 5px;
   padding-bottom: 5px;
 }
