@@ -10,6 +10,9 @@ body {
 .header {
   font-style: italic;
 }
+tr {
+  background-color: #dcdcdc;
+}
 
 tr:nth-child(odd) {
   background-color: yellow;
