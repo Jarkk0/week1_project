@@ -22,6 +22,6 @@ tr {
   padding-bottom: 5px;
 }
 
-th:nth-child(1) {
+th {
   background-color: #923a3a;
 }
