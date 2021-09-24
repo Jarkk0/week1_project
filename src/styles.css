@@ -4,7 +4,13 @@ body {
 #menu-table {
   text-align: left;
   background-color: gainsboro;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .header {
   font-style: italic;
+}
+
+tr:nth-child(odd) {
+  background-color: yellow;
 }
