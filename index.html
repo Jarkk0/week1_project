@@ -7,45 +7,47 @@
 
   <body>
     <div id="app"></div>
-    <div id="menu-table">
-      <h2 class="header">Menu</h2>
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Price</th>
-        </tr>
-        <tr>
-          <th>Meal 1</th>
-          <th>14,89</th>
-        </tr>
-        <tr>
-          <th>Meal 2</th>
-          <th>6,99</th>
-        </tr>
-        <tr>
-          <th>Meal 3</th>
-          <th>16,99</th>
-        </tr>
-        <tr>
-          <th>Meal 4</th>
-          <th>8,49</th>
-        </tr>
-        <tr>
-          <th>Meal 5</th>
-          <th>9,99</th>
-        </tr>
-      </table>
-    </div>
-    <div>
-      <h2 class="header">Reviews</h2>
-      <input type="text" name="item" id="item" />
-
-      <div id="itembutton"><button onclick="appendList()">Add</button></div>
-      <div id="itembutton">
-        <button onclick="deleteList()">Delete all</button>
+    <div class="menu-layout">
+      <div id="menu-table">
+        <h2 class="header">Menu</h2>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <th>Meal 1</th>
+            <th>14,89</th>
+          </tr>
+          <tr>
+            <th>Meal 2</th>
+            <th>6,99</th>
+          </tr>
+          <tr>
+            <th>Meal 3</th>
+            <th>16,99</th>
+          </tr>
+          <tr>
+            <th>Meal 4</th>
+            <th>8,49</th>
+          </tr>
+          <tr>
+            <th>Meal 5</th>
+            <th>9,99</th>
+          </tr>
+        </table>
       </div>
+      <div>
+        <h2 class="header">Reviews</h2>
+        <input type="text" name="item" id="item" />
 
-      <ul id="listitems"></ul>
+        <div id="itembutton"><button onclick="appendList()">Add</button></div>
+        <div id="itembutton">
+          <button onclick="deleteList()">Delete all</button>
+        </div>
+
+        <ul id="listitems"></ul>
+      </div>
     </div>
     <script src="src/index.js"></script>
   </body>

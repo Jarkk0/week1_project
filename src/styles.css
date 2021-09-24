@@ -1,6 +1,11 @@
 body {
   font-family: "EB Garamond", serif;
 }
+.menu-layout {
+  text-align: center;
+  max-width: 100rem;
+  margin: 1em;
+}
 #menu-table {
   text-align: left;
   background-color: gainsboro;
