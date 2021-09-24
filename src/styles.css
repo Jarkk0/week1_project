@@ -22,6 +22,6 @@ tr {
   padding-bottom: 5px;
 }
 
-tr:nth-child(1) {
-  background-color: yellowgreen;
+th:nth-child(1) {
+  background-color: #923a3a;
 }
